@@ -1,0 +1,72 @@
+body {
+    background-color: aqua;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgb(104, 6, 6);
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+img {
+    width: 100%;
+}
+.container {
+    background-color: white;
+    width: 1000px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.img-container {
+    position: relative;
+}
+.img-container:hover .caption {
+    visibility: visible;
+}
+.img-container .caption {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(25,25,25,0.5);
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+}
+.team {
+    display: flex;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.team .member {
+    width: 300px;
+    padding: 10px;
+}
+.team .member img {
+    border-radius: 50%;
+    width: 50%;
+}
+.team .member .name {
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
